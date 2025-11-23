@@ -65,7 +65,7 @@ export default function HomeScreen() {
 
       <TouchableOpacity
         style={styles.addButton}
-        onPress={() => router.push("/pages/categorias")}
+        onPress={() => router.push("/FoodCRUD")}
       >
         <Entypo name="plus" size={32} color={"black"} />
       </TouchableOpacity>
